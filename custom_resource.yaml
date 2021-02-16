@@ -78,7 +78,7 @@ Resources:
     AmazonConnectIAMUser:
         Type: AWS::IAM::User
         Properties:
-            UserName: AmazonConnectAutomationUser
+            UserName: AmazonConnectUser
             ManagedPolicyArns:
               - arn:aws:iam::aws:policy/AmazonConnect_FullAccess
             LoginProfile:
